@@ -37,4 +37,4 @@ jobs:
     # Synopsys Detect arguments
         args: --blackduck.url="${{ secrets.BLACKDUCK_URL}}" --blackduck.api.token="${{ secrets.BLACKDUCK_API_TOKEN}} --blackduck.trust.cert=true --detect.project.name=javascript --detect.project.version.name=1" --detect.blackduck.signature.scanner.snippet.matching=SNIPPET_MATCHING --detect.blackduck.signature.scanner.upload.source.mode=true
         
-        
+      
